@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.send-email {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+
+
+}
+
+.sendEmail.container.form-group1 {
+    flex: 1;
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 19px;
+    margin-top: 20px;
+}
+
+.container {
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 10px;
+    padding: 20px 30px 30px 30px;
+    min-height: 500px;
+    position: relative;
+    border: 1px solid #7227c7;
+    background-color: #f9f9f9;
+}
+
+.form-group1 {
+    flex: 1;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+textarea {
+    font-family: "Merienda", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    width: 100%;
+    padding: 7px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    border: 1px solid #6226bc;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 320px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
